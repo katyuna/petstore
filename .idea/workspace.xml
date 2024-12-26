@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="457c0678-c595-4a74-9b49-9972bdb89f19" name="Changes" comment="Initial commit" />
+    <list default="true" id="457c0678-c595-4a74-9b49-9972bdb89f19" name="Changes" comment="feature: add readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -49,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735207283022</updated>
-      <workItem from="1735207284569" duration="1012000" />
+      <workItem from="1735207284569" duration="2402000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1735208270621</created>
@@ -58,7 +61,35 @@
       <option name="project" value="LOCAL" />
       <updated>1735208270622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1735208335951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735208335951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit">
+      <created>1735209104135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735209104135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature: add readme">
+      <created>1735209261863</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735209261863</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature: add readme">
+      <created>1735209471342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735209471342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feature: add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: add readme" />
   </component>
 </project>
