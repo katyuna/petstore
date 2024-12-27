@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="457c0678-c595-4a74-9b49-9972bdb89f19" name="Changes" comment="feature: organize branches2" />
+    <list default="true" id="457c0678-c595-4a74-9b49-9972bdb89f19" name="Changes" comment="feature: add description at readme.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/petstore/testdata/TestDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PojoJsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/petstoreapi/CreateUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/resources/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,14 +53,67 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/SoftWareCats/PROJECTS/WB/ДБО/Автотесты/cucumber_tests",
+    "last_directory_selection": "D:/SoftWareCats/PROJECTS/PetProjects/MyPetProjects/SwaggerPetStore/petstoreproject/src/main/test/java/petstoreapi",
+    "last_opened_file_path": "D:/SoftWareCats/PROJECTS/PetProjects/MyPetProjects/SwaggerPetStore/petstoreproject/src/main/test",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SoftWareCats\PROJECTS\PetProjects\MyPetProjects\SwaggerPetStore\petstoreproject\src\main\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SoftWareCats\PROJECTS\PetProjects\MyPetProjects\SwaggerPetStore\petstoreproject\src\main\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="petstoreapi" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test allure:report" />
+      <command value="mvn clean test allure:serve" />
+      <command value="mvn test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CreateUserTest">
+    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstoreproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstoreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstoreapi" />
+      <option name="MAIN_CLASS_NAME" value="petstoreapi.CreateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="petstoreproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstoreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstoreapi" />
+      <option name="MAIN_CLASS_NAME" value="petstoreapi.CreateUserTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CreateUserTest" />
+        <item itemvalue="JUnit.CreateUserTest.testCreateUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,7 +123,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1735207283022</updated>
-      <workItem from="1735207284569" duration="3157000" />
+      <workItem from="1735207284569" duration="9289000" />
+      <workItem from="1735280763236" duration="9620000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1735208270621</created>
@@ -104,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1735219984417</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature: organize branches3">
+      <created>1735220297705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735220297705</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feature: add description at readme.md">
+      <created>1735220470103</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1735220470103</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +211,8 @@
     <MESSAGE value="feature: add readme" />
     <MESSAGE value="feature: organize branches" />
     <MESSAGE value="feature: organize branches2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: organize branches2" />
+    <MESSAGE value="feature: organize branches3" />
+    <MESSAGE value="feature: add description at readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: add description at readme.md" />
   </component>
 </project>
